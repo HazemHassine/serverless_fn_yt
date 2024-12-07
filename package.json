@@ -1,0 +1,14 @@
+{
+  "name": "yt_transcript_fn",
+  "version": "1.0.0",
+  "description": "Serverless function to transcribe youtube videos (API wrapper)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "youtube-transcript": "^1.2.1"
+  }
+}
