@@ -5,11 +5,13 @@
   "main": "functions/hello.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p netlify/functions && cp -r functions/* netlify/functions/"
+    "build": "mkdir -p build/functions && cp -r functions/* build/functions/"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "youtube-transcript": "^1.2.1"
+    "node-fetch": "^3.3.2",
+    "youtube-transcript": "^1.2.1",
+    "youtube-transcript-api": "^1.1.2"
   }
 }
